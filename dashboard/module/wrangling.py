@@ -15,11 +15,11 @@ def wrangling():
     st.write("### Gathering Data")
 
     st.write("##### 1. Mendapatkan data penyewaan sepeda yang diakumulasi setiap jam")
-    hourly_df = pd.read_csv('data/hour.csv')
+    hourly_df = pd.read_csv('../data/hour.csv')
     st.write(hourly_df.head(5))
 
     st.write("##### 2. Mendapatkan data penyewaan sepeda yang diakumulasi setiap hari")
-    daily_df = pd.read_csv('data/day.csv')
+    daily_df = pd.read_csv('../data/day.csv')
     st.write(daily_df.head(5))
 
     # Insight

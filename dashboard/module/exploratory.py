@@ -8,8 +8,8 @@ from sklearn.cluster import KMeans # type: ignore
 from sklearn.preprocessing import StandardScaler # type: ignore
 from sklearn.linear_model import LinearRegression # type: ignore
 
-hourly_df = pd.read_csv('data/hour.csv')
-daily_df = pd.read_csv('data/day.csv')
+hourly_df = pd.read_csv('../data/hour.csv')
+daily_df = pd.read_csv('../data/day.csv')
 
 def exploratory():
     # st.write("## Exploratory Data Analysis")
