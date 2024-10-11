@@ -8,8 +8,8 @@ from sklearn.cluster import KMeans # type: ignore
 from sklearn.preprocessing import StandardScaler # type: ignore
 from sklearn.linear_model import LinearRegression # type: ignore
 
-hourly_df = pd.read_csv('../data/hour.csv')
-daily_df = pd.read_csv('../data/day.csv')
+hourly_df = pd.read_csv('data/hour.csv')
+daily_df = pd.read_csv('data/day.csv')
 daily_df['dteday'] = pd.to_datetime(daily_df['dteday'])
 hourly_df['dteday'] = pd.to_datetime(hourly_df['dteday'])
 

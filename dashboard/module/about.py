@@ -3,7 +3,7 @@ import streamlit as st
 
 def about():
     # menampilkan readme.md
-    with open('../data/basic-info.md', 'r') as file:
+    with open('data/basic-info.md', 'r') as file:
         data = file.read()
         st.write(data)
 
