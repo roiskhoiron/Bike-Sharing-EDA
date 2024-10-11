@@ -1,0 +1,7 @@
+# Daftar library yang digunakan
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.2
+seaborn==0.13.2
+streamlit==1.39.0
+scikit-learning==1.5.2
